@@ -3,3 +3,31 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body {
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+/* General style */
+.image-container {
+    display: flex;
+}
+
+.image-container img {
+    width: 100%;
+}
+
+/* Header style */
+header {
+    background: #1f1f1f;
+    padding: 10px 50px;
+}
+
+#logo {
+    width: 75px;
+}
+ 
+#logo img {
+    border-radius: 10px;
+    border: 2px outset #fff;
+}
