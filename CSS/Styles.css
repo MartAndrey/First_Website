@@ -26,8 +26,33 @@ header {
 #logo {
     width: 75px;
 }
- 
+
 #logo img {
     border-radius: 10px;
     border: 2px outset #fff;
+}
+
+/* Hero style */
+#hero {
+    position: relative;
+}
+
+#hero #computer {
+    display:  inline-block;
+    width:  100%;
+}
+
+#hero .information-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#hero .information-container #photo {
+    width: 150px;
+    height: 150px;
+}
+
+#hero .information-container #photo img {
+    border-radius: 100%;
 }
