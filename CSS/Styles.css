@@ -44,8 +44,13 @@ header {
 
 #hero .information-container {
     position: absolute;
-    top: 0;
+    top: 50%;
+    transform: translateY(-50%);
     left: 0;
+    display: flex;
+    width: 100%;
+    color: #fff;
+    padding: 0 50px;
 }
 
 #hero .information-container #photo {
@@ -55,4 +60,15 @@ header {
 
 #hero .information-container #photo img {
     border-radius: 100%;
+}
+
+#hero .information-container .information {
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+#hero .information-container .information span{
+    display: inline-block;
+    color: #b5b5b5;
+    margin-bottom: 70px;
 }
