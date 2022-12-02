@@ -115,3 +115,21 @@ main .social-icons #Platzi {
 main .social-icons #Twitter {
     background: #1da1f2;
 }
+
+main .social-icons #Instagram {
+    background: rgb(233, 232, 232);
+}
+
+main .social-icons #Itch {
+    background: #fa5c5b;
+}
+
+main .social-icons #Instagram img{
+    width: 30px;
+    height: 30px;
+}
+
+main .social-icons #Itch img {
+    width: 25px;
+    height: 23px;
+}
